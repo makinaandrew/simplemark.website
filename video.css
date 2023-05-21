@@ -51,6 +51,7 @@
     margin-bottom: 0px;
     z-index: 0;
     position: relative;
+    position: relative;
     
 
 }
@@ -113,6 +114,14 @@
     padding-left: 96px;
     padding-bottom: 3000px;
 }
+@media (max-width:600px) {
+    .boxtwo {grid-template-columns: 1fr ;}
+}
+@media (min-width :1000px) {
+    .boxtwo {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}xc
 
 
 .video-time {
